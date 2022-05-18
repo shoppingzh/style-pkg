@@ -1,0 +1,22 @@
+{
+  "name": "style-pkg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shoppingzh/style-pkg.git",
+  "author": "shoppingzh <xpzheng6@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp --reguire sucrase/register/ts"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-autoprefixer": "^0.0.33",
+    "@types/gulp-sass": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0",
+    "sucrase": "^3.21.0",
+    "ts-node": "^10.7.0"
+  }
+}

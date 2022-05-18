@@ -1,0 +1,10 @@
+@use "./var.scss" as *;
+@use "./components/button.scss";
+
+html {
+  color: $color;
+}
+
+.flex {
+  display: flex;
+}
